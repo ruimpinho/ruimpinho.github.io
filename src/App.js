@@ -1,4 +1,7 @@
-import logo from './logo.svg';
+//import logo from './logo.svg';
+//import logo from './RPwheel.png';
+import logo from './logo512.png';
+
 import './App.css';
 
 function App() {
@@ -6,9 +9,9 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Hello World! My name is Rui Pinho.
-        </p>
+        <h2>
+          Hello! My name is Rui Pinho.
+        </h2>
         <p>
           Let's build new apps together?
         </p>
@@ -18,7 +21,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Rui's profile
+          Visit Rui's profile
         </a>
       </header>
     </div>

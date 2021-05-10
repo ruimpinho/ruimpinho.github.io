@@ -2,16 +2,34 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
+
+
+const Item = (props) => {
+  return (
+    <p>This is an Item component. It's name is {props.name}.</p>
+  )
+}
+
+
+const item1 = <p>This is an Item.</p>
+
+
+
+const element = <div>
+  <h1>Hello, Rui!</h1>
+  {item1}
+  <Item name={'Rui'} />
+  <Item name={'Rui Pinho'} />
+  <Item name={'RMAP'} />
+  <Item name={'ruimpinho'} />
+</div>
+
+
+
+
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+    <App />,
+    //element,
   document.getElementById('root')
-);
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+)
