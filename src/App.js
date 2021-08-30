@@ -15,12 +15,7 @@ function App() {
         <p>
           Let's build new apps together?
         </p>
-        <a
-          className="App-link"
-          href="https://www.linkedin.com/in/rmapinho/?locale=en_US"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <a className="App-link" href="https://www.linkedin.com/in/rmapinho/" target="_blank" rel="noopener noreferrer">
           Visit Rui's profile
         </a>
       </header>
