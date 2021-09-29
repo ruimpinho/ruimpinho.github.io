@@ -1,20 +1,21 @@
 import React from 'react';
 import './App.css';
 import {Link} from 'react-router-dom';
+import 'bootstrap/dist/css/bootstrap.css' //importar bootstrap
+// import { Navbar} from 'react-bootstrap';
 
 function Nav() {
   return (
     <nav>
-        <h3>Rui Pinho</h3>
         <ul className="nav-links">
             <Link to='/'>
             <li>Home</li>
             </Link>
             <Link to='/about'>
-            <li>About</li>
+            <li>About </li>
             </Link>
             <Link to='/contact'>
-            <li>Contact</li>
+            <li>Contact </li>
             </Link>
         </ul>
     </nav>
