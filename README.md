@@ -6,4 +6,4 @@ Dev: Rui Pinho (https://ruimpinho.github.io/)
 
 Navbar from bootstrap: https://react-bootstrap.netlify.app/components/navbar/#navbars
 React Routing to built multiple pages: https://reactrouter.com/web/guides/quick-start
-Dark mode: 
+Dark mode: Styled components, TypeScript

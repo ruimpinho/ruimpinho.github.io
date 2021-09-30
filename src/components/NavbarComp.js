@@ -7,7 +7,6 @@ import Contact from "./Contact";
 
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom"; //Routing
 
-
 export default class NavbarComp extends Component {
   render() {
     return (
@@ -23,7 +22,7 @@ export default class NavbarComp extends Component {
             <Navbar.Collapse>
               <Nav className="me-auto">
                 <Nav.Link as={Link} to={"/home"}>Home</Nav.Link>
-                <Nav.Link as={Link} to={"/about"}>About me</Nav.Link>
+                <Nav.Link as={Link} to={"/about"}>About</Nav.Link>
                 <Nav.Link as={Link} to={"/contact"}>Contacts</Nav.Link>
               </Nav>
             </Navbar.Collapse>

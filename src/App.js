@@ -1,31 +1,23 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.css' //importar bootstrap
 import {Navbar} from 'react-bootstrap';
 import NavbarComp from './components/NavbarComp';
+import FooterComp from './components/FooterComp';
 
 
 
 function App() {
+  const [darkMode, setDarkMode] = useState(false)
   return (
-
       <div className="App">
 
-        <NavbarComp/>
 
-      
-      
-      <Navbar bg="dark" variant="dark" fixed="bottom">
-        <Navbar.Brand>
-           For more info, check the Contacts section.
-        </Navbar.Brand>
-      </Navbar>
+        <NavbarComp/>
+        <FooterComp/>
+
         </div>
       
-   
-    
-
-
      );
 }
 
