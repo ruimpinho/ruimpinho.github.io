@@ -6,8 +6,12 @@ import 'bootstrap/dist/css/bootstrap.css';
 
 
 ReactDOM.render(
-    //<Counter />,
     <App />,
-    //element,
   document.getElementById('root')
 )
+
+
+
+
+
+

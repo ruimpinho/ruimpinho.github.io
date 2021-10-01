@@ -12,15 +12,14 @@ function Home() {
       <br /> <br />
       <h3> Hello! I'm Rui.</h3>
       <p> <br/>
-        Welcome to my online CV. This sample website was built using React
-        components. Feel free to navigate the navbar and switch the night mode
+        Welcome to my online CV. This simple website was built using React and TypeScript. Feel free to resize the window, navigate the navbar (Bootstrap) and switch the night mode
         on/off.
       </p>
       <div className="lista">
         <p>
           - Navbar and other UI components: Bootstrap. <br />
           - React Router for building 3 different pages. <br />
-          - Styled components for the dark theme. <br /> <br />
+          - styled-components and react-switch for the dark theme. <br /> <br />
         </p>
         <img className="center" src={htmlcssjs} alt="HTML CSS Javascript" />
       </div>

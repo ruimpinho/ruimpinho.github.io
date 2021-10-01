@@ -2,14 +2,8 @@
   text-align: center;
 }
 
-
-body {
-  background:rgb(231, 227, 220);
-}
-
 .content {
-  padding: 10vh 5vh;
-  background:rgb(231, 227, 220);
+  padding:  5vh;
 }
 
 
@@ -24,6 +18,7 @@ body {
   width: 80%;
 
 }
+
 
 .center {
   display: block;

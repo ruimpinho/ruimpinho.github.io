@@ -12,7 +12,7 @@ export default class NavbarComp extends Component {
     return (
       <Router>
       <div>
-        <Navbar bg="dark" variant="dark" expand="md">
+        <Navbar bg="dark" variant="dark" expand="md" fixed="top">
           <Container>
             <Navbar.Brand href="#home">
               <img src={codinglogo} width="40px" alt="logo" />
