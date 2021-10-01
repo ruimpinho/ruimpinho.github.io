@@ -3,22 +3,9 @@
 }
 
 .content {
-  padding:  5vh;
+  padding-top: 5vh;
+  padding-bottom: 15vh;
 }
-
-
-.lista {
-  background-color: #223b64;
-  color:white;
-  border-radius: 0.5em;
-  text-align: left;
-  padding: 5% 10%;
-  display: block;
-  margin: auto;
-  width: 80%;
-
-}
-
 
 .center {
   display: block;
@@ -27,3 +14,24 @@
   width: 50%;
 }
 
+
+.lista {
+  background-color: #223B64;
+  color:white;
+  border-radius: 0.5em;
+  text-align: left;
+  padding: 5% 10%;
+  display: block;
+  margin: auto;
+  width: 80%;
+}
+
+
+.video {  
+  margin: 1em;
+  justify-content: center;
+  width: 500px;
+  height: 300px;
+  max-width: 80%;
+  border-radius:0.5em;
+}

@@ -9,7 +9,7 @@ function About() {
         <br/>
         <h4>Hello! My name is Rui Pinho. Here's some information about me:</h4>
         <br />
-        <Button variant="success" href="https://www.icloud.com/iclouddrive/02896siJQ5T5Gsw93w2lxtlqg#ruiPinho_githubpages" target="_blank" rel="noopener noreferrer">Download CV (iCloud)</Button>{' '}
+        <Button variant="success" href="https://www.icloud.com/iclouddrive/0XX1cT_bGKGS4216vZL_F0ASg#RuiPinho21" target="_blank" rel="noopener noreferrer">Download CV (iCloud)</Button>{' '}
         <br /> <br />
         <p>Brief summary:</p>
           <ul class="lista">
@@ -18,6 +18,28 @@ function About() {
        <li><strong>2017</strong> - Joined <a href="https://sensingfuture.com/en/" target="_blank" rel="noopener noreferrer">Sensing Future Technologies</a> as a software developer and project manager. Main stack: C#, WPF and HTML/CSS/JS</li>
        <li><strong>2015</strong> - Completed his Master's Degree in Biomedical Engineering. Learned fundamentals of CS.</li>
      </ul>
+
+     <h5><br/><br/>Some projects: </h5>
+
+
+     <br/>
+     <iframe class="video" src="https://www.youtube.com/embed/b-PXUVOqjZY" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+     <h5>ROSE</h5>
+     <p>Rui built the UI and video transmission method using SDK from an ultrasound probe. (HTML/CSS/JS and C#).</p>
+     <br/>
+
+     <iframe class="video" src="https://www.youtube.com/embed/mAHisGCOYgw" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+     <h5>PhysioSensing</h5>
+     <p>Rui built several new features on the PhysioSensing software. PhysioSensing is a medical device used to assess balance and gait. (WPF, SQL)</p>
+     <br/>
+
+
+     <iframe class="video" src="https://www.youtube.com/embed/tyQr7PQp8zw" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+     <h5>ABB Ball Dealer</h5>
+     <p>Working manipulation software of an ABB robot. Built the visual interface for the general user in C#.</p>
+     <br/>
+  
+
     </div>
   );
 }

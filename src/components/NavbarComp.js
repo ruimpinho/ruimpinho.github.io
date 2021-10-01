@@ -17,6 +17,8 @@ export default class NavbarComp extends Component {
             <Navbar.Brand href="#home">
               <img src={codinglogo} width="40px" alt="logo" />
               Rui Pinho
+              
+
             </Navbar.Brand>
             <Navbar.Toggle />
             <Navbar.Collapse>

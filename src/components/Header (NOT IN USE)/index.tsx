@@ -5,6 +5,12 @@ import { shade } from 'polished';
 
 import { Container } from './styles';
 
+import { Navbar, Nav } from "react-bootstrap";
+
+
+
+
+
 interface Props {
   toggleTheme(): void;
 }
@@ -15,6 +21,18 @@ const Header: React.FC<Props> = ({ toggleTheme }) => {
   return (
     <Container>
           Rui Pinho - Online CV 📗
+
+          <div>
+            <Navbar.Brand href="#home">
+            </Navbar.Brand>
+              <Nav className="me-auto">
+                <Nav.Link>Home</Nav.Link>
+                <Nav.Link>About</Nav.Link>
+                <Nav.Link>Contacts</Nav.Link>
+              </Nav>
+      </div>
+
+
       <Switch
         onChange={toggleTheme}
         checked={title === 'dark'}
@@ -31,9 +49,6 @@ const Header: React.FC<Props> = ({ toggleTheme }) => {
 };
 
 export default Header;
-
-
-
 
 
 
