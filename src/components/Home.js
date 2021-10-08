@@ -2,7 +2,6 @@ import React from "react";
 import "../App.css";
 import ruipic from "../logo512.png";
 import htmlcssjs from "../htmlcssjs.png"
-import { Button } from 'react-bootstrap';
 
 function Home() {
   return (
@@ -17,10 +16,7 @@ function Home() {
         <br /> If you want to go dark, try the night mode toggle below (footer). 🌌🌙
       </p>
 
-
       <p> <br /></p>
-
-
 
       <div className="lista">
         <p>

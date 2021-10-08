@@ -23,18 +23,18 @@ function About() {
 
 
      <br/>
-     <iframe class="video" src="https://www.youtube.com/embed/b-PXUVOqjZY" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+     <iframe class="video" src="https://www.youtube.com/embed/b-PXUVOqjZY" title="ROSE" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
      <h5>ROSE</h5>
      <p>Rui built the UI and video transmission method using SDK from an ultrasound probe. (HTML/CSS/JS and C#).</p>
      <br/>
 
-     <iframe class="video" src="https://www.youtube.com/embed/mAHisGCOYgw" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+     <iframe class="video" src="https://www.youtube.com/embed/mAHisGCOYgw" title="PhysioSensing" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
      <h5>PhysioSensing</h5>
      <p>Rui built several new features on the PhysioSensing software. PhysioSensing is a medical device used to assess balance and gait. (WPF, SQL)</p>
      <br/>
 
 
-     <iframe class="video" src="https://www.youtube.com/embed/tyQr7PQp8zw" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+     <iframe class="video" src="https://www.youtube.com/embed/tyQr7PQp8zw" title="ABB Ball Dealer" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
      <h5>ABB Ball Dealer</h5>
      <p>Working manipulation software of an ABB robot. Built the visual interface for the general user in C#.</p>
      <br/>
