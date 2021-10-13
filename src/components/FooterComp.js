@@ -5,9 +5,9 @@ export default class FooterComp extends Component {
   render() {
     return (
       <div>
-        <Navbar bg="warning" variant="light">
+        <Navbar bg="primary" variant="dark" fixed="bottom">
           <Container>
-            <Navbar.Brand href="#home">
+            <Navbar.Brand>
               Rui Pinho, 2021 🌍
             </Navbar.Brand>
           </Container>

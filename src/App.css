@@ -2,14 +2,17 @@
   text-align: center;
 }
 
-
-body {
-  background:rgb(231, 227, 220);
+.content {
+  padding-top: 5vh;
+  padding-bottom: 15vh;
+  /*background:rgb(231, 227, 220);*/
 }
 
-.content {
-  padding: 10vh 5vh;
-  background:rgb(231, 227, 220);
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 
@@ -22,13 +25,13 @@ body {
   display: block;
   margin: auto;
   width: 80%;
-
 }
 
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+.video {  
+  margin: 1em;
+  justify-content: center;
+  width: 500px;
+  height: 300px;
+  max-width: 80%;
+  border-radius:0.5em;
 }
-

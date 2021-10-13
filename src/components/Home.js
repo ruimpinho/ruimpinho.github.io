@@ -12,9 +12,8 @@ function Home() {
       <br /> <br />
       <h3> Hello! I'm Rui.</h3>
       <p> <br/>
-        Welcome to my online CV. This sample website was built using React
-        components. Feel free to navigate the navbar and switch the night mode
-        on/off.
+      Welcome to my online CV. This simple website was built using React (create-react-app). <br/> Feel free to resize the window (dynamic/footer) and navigate the various pages. 
+        <br />
       </p>
       <div className="lista">
         <p>
@@ -24,6 +23,8 @@ function Home() {
         </p>
         <img className="center" src={htmlcssjs} alt="HTML CSS Javascript" />
       </div>
+
+
     </div>
   );
 }
