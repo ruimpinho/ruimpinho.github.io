@@ -1,6 +1,8 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.css' //importar bootstrap
 import NavbarComp from './components/NavbarComp';
+import Home from './components/Home';
+
 
 //darkmode
 import { ThemeProvider, DefaultTheme } from 'styled-components';
