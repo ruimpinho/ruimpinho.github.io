@@ -4,21 +4,21 @@ import { ThemeContext } from 'styled-components';
 
 import { Container } from './styles';
 
-interface Props {
+interface FooterProps {
   toggleTheme(): void;
 }
 
-const Footer: React.FC<Props> = ({ toggleTheme }) => {
+const Footer: React.FC<FooterProps> = ({ toggleTheme }) => {
   const { title } = useContext(ThemeContext);
   return (
     <Container>
-          Rui Pinho, 2021 🌍
+      Rui Pinho, 2021 🌍
       <Switch
         onChange={toggleTheme}
         checked={title === 'dark'}
         checkedIcon={false}
         uncheckedIcon={false}
-       />
+      />
     </Container>
   );
 };
