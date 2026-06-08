@@ -1,5 +1,5 @@
 import React, { FC } from 'react';
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+import { HashRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import { Navbar, Nav, Container } from 'react-bootstrap';
 import Home from './Home';
 import About from './About';
@@ -16,7 +16,7 @@ const NavbarComp: FC<NavbarCompProps> = () => {
       <div>
         <Navbar bg="dark" variant="dark" expand="md" fixed="top">
           <Container>
-            <Navbar.Brand href="/home">
+            <Navbar.Brand as={Link} to="/home">
               <img src={codinglogo} width="40px" alt="Rui Pinho Logo" />
               Rui Pinho
             </Navbar.Brand>
