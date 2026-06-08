@@ -13,12 +13,12 @@ const Home: FC = () => {
     <PageContainer>
       <HeroSection>
         <img src={ruipic} alt="Rui Pinho" />
-        <h1>Welcome</h1>
-        <p>I'm Rui Pinho, a IT project manager, passionate about creating beautiful, functional digital experiences.</p>
+        <h1>Rui Pinho</h1>
+        <p>Welcome! I'm a IT project manager, passionate about creating beautiful, functional digital experiences.</p>
       </HeroSection>
 
       <section>
-        <h2 style={{ textAlign: 'center', marginBottom: '3rem' }}>About this landing page</h2>
+        <h2 style={{ textAlign: 'center', marginBottom: '3rem' }}>About This Project</h2>
         <FeatureGrid>
           <FeatureCard>
             <h3>🎨 Modern Design</h3>
