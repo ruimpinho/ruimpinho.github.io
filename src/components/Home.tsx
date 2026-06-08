@@ -6,9 +6,30 @@ import {
   FeatureCard,
 } from '../styles/components';
 import ruipic from '../logo512.png';
-import htmlcssjs from '../htmlcssjs.png';
 
 const Home: FC = () => {
+  const skillStyle = {
+    display: 'inline-flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+    margin: '0.35rem',
+    padding: '0.8rem 1.2rem',
+    borderRadius: '999px',
+    border: '1px solid rgba(0, 113, 227, 0.3)',
+    background: 'rgba(0, 113, 227, 0.08)',
+    color: '#073B8F',
+    fontSize: '0.95rem',
+    fontWeight: 600,
+    transition: 'all 0.2s ease',
+    cursor: 'default' as const,
+  };
+
+  const skillHoverStyle = {
+    background: '#0071E3',
+    color: 'white',
+    borderColor: '#0071E3',
+  };
+
   return (
     <PageContainer>
       <HeroSection>
@@ -18,11 +39,11 @@ const Home: FC = () => {
       </HeroSection>
 
       <section>
-        <h2 style={{ textAlign: 'center', marginBottom: '3rem' }}>About This Project</h2>
+        <h2 style={{ textAlign: 'center', marginBottom: '3rem' }}>About This Website</h2>
         <FeatureGrid>
           <FeatureCard>
             <h3>🎨 Modern Design</h3>
-            <p>Built with React and TypeScript, featuring a responsive and accessible interface that works seamlessly across all devices.</p>
+            <p>Built with React and TypeScript, featuring a responsive and mobile friendly interface that works seamlessly across all devices.</p>
           </FeatureCard>
           <FeatureCard>
             <h3>🌙 Dark Mode</h3>
@@ -49,10 +70,19 @@ const Home: FC = () => {
 
       <section style={{ marginTop: '4rem', textAlign: 'center' }}>
         <h2>Tech Stack</h2>
-        <div style={{ marginTop: '2rem' }}>
-          <img src={htmlcssjs} alt="HTML CSS JavaScript" style={{ maxWidth: '100%', height: 'auto' }} />
+        <div style={{ marginTop: '2rem', display: 'flex', flexWrap: 'wrap', justifyContent: 'center' }}>
+          {['React', 'TypeScript', 'styled-components', 'React Router', 'Bootstrap', 'react-switch'].map((skill) => (
+            <span
+              key={skill}
+              style={skillStyle}
+              onMouseEnter={(e) => Object.assign((e.currentTarget as HTMLSpanElement).style, skillHoverStyle)}
+              onMouseLeave={(e) => Object.assign((e.currentTarget as HTMLSpanElement).style, skillStyle)}
+            >
+              {skill}
+            </span>
+          ))}
         </div>
-        <p style={{ marginTop: '2rem', fontSize: '1rem' }}>React • TypeScript • Styled Components • React Router • Bootstrap</p>
+        <p style={{ marginTop: '2rem', fontSize: '1rem' }}> </p>
       </section>
     </PageContainer>
   );

@@ -13,7 +13,7 @@ const About: FC = () => {
 
   return (
     <PageContainer>
-      <h1 style={{ textAlign: 'center', marginBottom: '1rem', color: theme.colors.accent }}>About me</h1>
+      <h1 style={{ textAlign: 'center', marginBottom: '1rem'}}>About me</h1>
       <p style={{ textAlign: 'center', fontSize: '1.1rem', marginBottom: '3rem' }}>
         Hello! My name is Rui Pinho. Here's some information about me:
       </p>
